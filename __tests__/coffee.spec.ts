@@ -1,8 +1,10 @@
 // This is where you'll write tests for the coffee machine. You can't change the source code to help.
 
-import { CoffeeMachine } from "../src/coffeeMachine";
+import { CoffeeMachine } from "../src/coffeeMachine.ts";
 
 describe("coffee", () => {
+  const machine = new CoffeeMachine();
+
   test("should see how many beans are left", () => {
     fail();
   });
