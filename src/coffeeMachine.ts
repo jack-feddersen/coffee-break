@@ -1,4 +1,4 @@
-class CoffeeMachine {
+export class CoffeeMachine {
   cups = [{ name: "Mug", capacityMl: 250, empty: true, contents: "" }];
 
   #beans = 200;
