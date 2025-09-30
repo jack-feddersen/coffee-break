@@ -1,6 +1,6 @@
 // This is where you'll write tests for the coffee machine. You can't change the source code to help.
 
-import coffeeMachine from "../src/coffeeMachine";
+import { CoffeeMachine } from "../src/coffeeMachine";
 
 describe("coffee", () => {
   test("should see how many beans are left", () => {
