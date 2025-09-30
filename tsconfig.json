@@ -5,6 +5,7 @@
     "types": ["jest", "node"],
     // For nodejs:
     "lib": ["esnext"],
+    "target": "esnext",
     // and npm install -D @types/node
 
     // Other Outputs
@@ -27,7 +28,7 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
+    // "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "allowImportingTsExtensions": true,
